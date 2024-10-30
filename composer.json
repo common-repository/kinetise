@@ -1,0 +1,20 @@
+{
+    "name": "kinetise/wordpress",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kinetise",
+            "email": "support@kinetise.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/http-foundation": "~2.7"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "" : "src/"
+        }
+    }
+}

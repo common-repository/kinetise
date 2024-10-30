@@ -1,0 +1,178 @@
+/** KINETISE API CSS */
+
+#kinetise-plugin-container h1 {
+    font-size: 15px;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#kinetise-plugin-container h1 a {
+    display: block;
+    height: 100%;
+    padding: 10px;
+}
+
+#kinetise-plugin-container h1 a span:first-of-type {
+    background: url('../images/kinetise-logo_big.png') no-repeat;
+    min-height: 36px;
+    min-width: 153px;
+    display: inline-block;
+}
+
+#kinetise-plugin-container h1 > span:first-of-type {
+    position: absolute;
+    top: 20px;
+    font-size: 30px;
+    color: #000;
+    left: 180px;
+}
+
+#kinetise-plugin-container ul {
+    list-style-type: disc;
+    margin-left: 50px;
+}
+
+#kinetise-plugin-container .reference-section {
+    margin: 20px 0 5px 0;
+    background-color: #eaeaea;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+#kinetise-plugin-container .reference-section.active {
+    background-color: #000;
+    color: #fff;
+}
+
+#kinetise-plugin-container .reference-section:hover {
+    cursor: pointer;
+}
+
+@media all and (min-width: 680px) {
+    #kinetise-plugin-container .row > div {
+        float: left;
+    }
+
+    #kinetise-plugin-container .row > div:first-of-type {
+        width: 60%;
+        margin-right: 2%;
+    }
+
+    #kinetise-plugin-container .row > div:last-of-type {
+        width: 38%;
+    }
+
+    #kinetise-plugin-container .row:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+#kinetise-plugin-container .reference {
+    background-color: #eaeaea;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#kinetise-plugin-container .reference > code:first-of-type {
+    font-weight: bold;
+}
+
+#kinetise-plugin-container .reference h4 {
+    margin-bottom: 0;
+}
+
+#kinetise-plugin-container .reference table {
+    width: 100%;
+    text-align: left;
+}
+
+#kinetise-plugin-container .reference table td:first-of-type {
+    width: 20%;
+}
+
+#kinetise-plugin-container .reference table thead th {
+    background-color: #000;
+    color: #fff;
+}
+
+#kinetise-plugin-container .reference table thead th,
+#kinetise-plugin-container .reference table tbody td {
+    padding: 5px;
+}
+
+#kinetise-plugin-container .reference table tbody td {
+    background-color: #fff;
+}
+
+#kinetise-plugin-container .tutorial-header {
+    margin-bottom: 30px;
+}
+
+#kinetise-plugin-container .tutorial-header span {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#kinetise-plugin-container .tutorial-header span:hover {
+    cursor: pointer;
+}
+
+#kinetise-plugin-container .tutorial-header span.not-active {
+    background-color: #e5e5e5;
+    color: #b7b7b7;
+    -moz-box-shadow: inset 0 0 10px #bababa;
+    -webkit-box-shadow: inset 0 0 10px #bababa;
+    box-shadow: inset 0 0 10px #bababa
+}
+
+#kinetise-plugin-container .row-3:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#kinetise-plugin-container .row-3 > div {
+    text-align: center;
+}
+
+@media all and (min-width: 1100px) {
+    #kinetise-plugin-container .row-3 > div.row-col,
+    #kinetise-plugin-container .row-3 > div > div.row-col {
+        float: left;
+        width: 32%;
+        margin-right: 2%;
+        margin-bottom: 10px;
+    }
+
+    #kinetise-plugin-container .row-3 > div.row-col:last-of-type,
+    #kinetise-plugin-container .row-3 > div > div.row-col:last-of-type {
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 830px) {
+    #kinetise-plugin-container .tutorial-header span {
+        display: block;
+        margin-top: 5px;
+    }
+    #kinetise-plugin-container .tutorial-header span:first-of-type {
+        margin-top: 0;
+    }
+
+}
+
+#kinetise-plugin-container .row-3 > div img {
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 0px 19px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 0px 19px 0px rgba(50, 50, 50, 0.5);
+}
